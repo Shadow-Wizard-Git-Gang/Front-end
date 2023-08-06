@@ -25,7 +25,7 @@ export const container = {
     alignSelf: "stretch",
 };
 
-export const title = {
+export const label = {
     color: "#000",
     fontSize: "0.875rem",
     fontStyle: "normal",

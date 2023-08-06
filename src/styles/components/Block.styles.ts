@@ -1,9 +1,7 @@
-export const article = {
+export const block = {
     display: "flex",
     padding: "1rem",
-    justifyContent: "center",
     alignItems: "flex-start",
-    gap: "1rem",
     flex: "1 0 0",
     borderRadius: "0.375rem",
     border: "1px solid rgba(0, 0, 0, 0.10)",
@@ -104,4 +102,40 @@ export const username = {
     fontWeight: "500",
     lineHeight: "1.25rem", /* 142.857% */
     margin: "0",
+};
+
+export const title = {
+    overflow: 'hidden',
+    color: 'rgba(0, 0, 0, 0.50)',
+    textOverflow: 'ellipsis',
+    whitespace: 'nowrap',
+    fontSize: '1rem',
+    fontStyle: 'normal',
+    fontWeight: 400,
+    lineHeight: "1.5rem", /* 150% */
+    margin: 0,
+};
+
+export const data = {
+    overflow: 'hidden',
+    color: '#000',
+    textOverflow: 'ellipsis',
+    whitespace: 'nowrap',
+    fontSize: '1.75rem',
+    fontStyle: 'normal',
+    fontWeight: 500,
+    lineHeight: "2.25rem", /* 128.571% */
+    margin: 0,
+};
+
+export const change = {
+    overflow: 'hidden',
+    color: '#000',
+    textOverflow: 'ellipsis',
+    whitespace: 'nowrap',
+    fontSize: '1rem',
+    fontStyle: 'normal',
+    fontWeight: 400,
+    lineHeight: "1.5rem", /* 150% */
+    margin: 0,
 };

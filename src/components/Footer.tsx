@@ -1,4 +1,4 @@
-import * as styles from "../styles/Footer"
+import * as styles from "../styles/components/Footer.styles"
 
 export const Footer = () => {
     return <div style={styles.footer}>
