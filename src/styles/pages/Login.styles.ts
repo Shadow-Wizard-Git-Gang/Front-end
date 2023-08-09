@@ -5,17 +5,17 @@ export const login = {
     alignItems: 'center',
     gap: '3.75rem',
     alignSelf: 'stretch',
-};
+} as const;
 
 export const loginContainer = {
     display: 'flex',
-    flexDirection: 'column' as const,
+    flexDirection: 'column',
     alignItems: 'center',
     gap: '1.5rem',
     flex: '1 0 0',
-};
+} as const;
 
 export const loginForm = {
     flex: "1 0 0",
     alignSelf: "stretch",
-};
+} as const;

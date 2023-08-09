@@ -6,4 +6,4 @@ export const footer = {
     gap: "3.75rem",
     alignSelf: "stretch",
     border: "1px solid rgba(0, 0, 0, 0.10)",
-};
+} as const;

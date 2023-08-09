@@ -7,7 +7,7 @@ export const navbar = {
     gap: "1.25rem",
     background: "#FFF",
     boxShadow: "0px 0px 6px 0px rgba(0, 0, 0, 0.12)",
-};
+} as const;
 
 export const profilePicture = {
     width: "2.5rem",
@@ -15,24 +15,24 @@ export const profilePicture = {
     flexShrink: "0",
     borderRadius: "6.25rem",
     background: "rgba(0, 0, 0, 0.10)",
-};
+} as const;
   
 export const header = {
     flex: "1 0 0",
-    textAlign: "left" as const,
+    textAlign: "left",
     color: "#000",
     fontSize: "1.75rem",
     fontStyle: "normal",
     fontWeight: "500",
     lineHeight: "2.25rem", /* 128.571% */
-};
+} as const;
   
 export const links = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
     gap: "2.5rem",
-};
+} as const;
 
 export const linksText = {
     color: "#000",
@@ -40,4 +40,4 @@ export const linksText = {
     fontStyle: "normal",
     fontWeight: "400",
     lineHeight: "1.5rem", /* 150% */
-};
+} as const;
